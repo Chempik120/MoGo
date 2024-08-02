@@ -122,16 +122,24 @@ font-variant: all-small-caps;
 margin-bottom: 109px;
 }
 
-.ul-list{
-    display: flex; 
+.ul-cont2{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 100px auto;
+    margin-left: 150px;
 }
 
 .ul-cont{
-width: 1200px;
+display: flex;
 margin: 0 auto;
+width: 1200px;
+margin-left: 150px;
 }
 
-.p-item{
+
+
+.h-item{
 color: #333;
 /* uppercase */
 font-family: Montserrat;
@@ -140,17 +148,28 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 font-variant: small-caps;
-
+margin-bottom: 20px;
 
 }
 
-.li-item{
+.p-item{
 color: #B6B6B6;
 font-family: Roboto;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 22px; /* 146.667% */
+width: 275px;
+height: 37px;
+}
+
+.p-item:not(:last-child){
+    margin-right: 125px;
+}
+
+.div-item{
+width: 1200px;
+height: 74px;
 
 }
 
